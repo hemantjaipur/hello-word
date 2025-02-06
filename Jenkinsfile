@@ -1,8 +1,8 @@
 pipeline {
-    agent {lable "linux"},
+    agent {lable "linux"}
     options {
 
-    },
+    }
     stages {
         stage('hello') {
             steps {
