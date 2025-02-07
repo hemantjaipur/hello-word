@@ -1,12 +1,9 @@
 pipeline {
-    agent {lable "linux"}
-    options {
-
-    }
+    agent any
     stages {
-        stage('hello') {
+        stage('Example') {
             steps {
-                echo "Hello"
+                echo 'Hello World'
             }
         }
     }
