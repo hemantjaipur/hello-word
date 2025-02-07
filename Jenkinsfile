@@ -14,7 +14,7 @@ pipeline {
     
         stage('Build Angular app using docker ') {
             steps {
-                stript {
+                script {
                     echo 'building docker image for angular'
                     sh 'docker build -t $DOCKER_IMAGE .' 
                 }
